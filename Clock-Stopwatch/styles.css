@@ -1,0 +1,76 @@
+body {
+  background-color: #f7e8b2; /* Soft gray background */
+  font-family: Arial, sans-serif;
+}
+
+#stopwatch {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 10px 10px 20px 10px;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2d732; /* Light blue */
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  margin-left: 70px;
+  /* ... other properties */
+  border: 2px solid #f26f22; /* Adjust thickness and color as desired */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.time {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  font-size: 32px;
+  color: #333; /* Darker text color */
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 50px; /* Increased font size for better visibility */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold; /* Stronger font weight */
+  text-align: center;
+  letter-spacing: 2px; /* Adds space between letters */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  color: #333; /* Darker text color */
+  margin-bottom: 20px; /* Adjust margin for spacing */
+}
+
+#sw-time {
+  width: 80%;
+  padding: 20px 0;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: #f26f22;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 42px;
+}
+
+.controls {
+  display: flex;
+  margin: 50px 50px 50px 50px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#sw-rst, #sw-go {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  background-color: #f26f22;
+  color: #333;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
